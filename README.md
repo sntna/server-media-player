@@ -11,3 +11,4 @@ Status: pre-code. This repo is currently the test bed for an automated issue-to-
 ```
 ./scripts/check.sh
 ```
+Pipeline test.
