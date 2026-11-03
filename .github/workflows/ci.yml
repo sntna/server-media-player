@@ -1,3 +1,4 @@
+# managed by the factory test
 name: ci
 on:
   pull_request:
