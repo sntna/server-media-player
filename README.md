@@ -4,6 +4,8 @@ A performance-first media player for self-hosted servers (Jellyfin first), start
 designed to port to every major platform. See [AGENTS.md](AGENTS.md) for architecture, performance
 budgets and contribution rules.
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to run the checks and open a PR.
+
 Status: pre-code. This repo is currently the test bed for an automated issue-to-PR workflow.
 
 ## Checks
