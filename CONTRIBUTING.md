@@ -26,6 +26,12 @@ run prints `check.sh: ok`.
 - Never commit secrets, tokens, server URLs with credentials or personal media paths. Test fixtures
   must be synthetic.
 
+## Filing issues
+
+The issue is the spec, so a good one saves everyone a round trip. See
+[docs/filing-issues.md](docs/filing-issues.md) for what to include, how `goal` issues differ from ready
+tasks, what the labels mean, and what to do when an issue gets `needs-info`.
+
 ## tvOS code
 
 The automation runs on Ubuntu without Xcode, so code under `platform/tvos/` cannot be built there.
