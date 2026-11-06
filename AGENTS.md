@@ -58,6 +58,13 @@ Budgets are targets to measure against, not guesses to ignore. Record measuremen
 7. Do not modify `.github/`, CI config, lockfiles, or anything named `*.env*` unless the issue explicitly says so.
 8. Never commit secrets, tokens, server URLs with credentials, or personal media paths. Test fixtures must be synthetic.
 
+## Verification
+
+- `./scripts/check.sh` is the one command that must pass before a PR; paste its output in the PR body.
+- Before claiming a change works (or when reviewing a PR), follow `.claude/skills/verify/SKILL.md`: it maps
+  each area to the command that exercises it, shows how to run a single test, and lists what cannot be
+  verified on the Linux box. Report anything you could not run; never fake evidence.
+
 ## Environment limits (important for agents on the Linux box)
 
 - The automation runs on **Ubuntu without Xcode**. You can build and test `core/` fully. You **cannot**
