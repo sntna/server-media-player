@@ -40,17 +40,17 @@ underspecified task bounce back with `needs-info`.
 Copy this into the issue body and replace the details:
 
 ```markdown
-`docs/glossary.md` has no entry for "Metadata", and other docs will refer to it.
+`GLOSSARY.md` has no entry for "Metadata", and other docs will refer to it.
 Add one so the term is defined in a single place. Part of #12.
 
 ## Acceptance criteria
-- [ ] `docs/glossary.md` has a "Metadata" entry of at most three sentences.
+- [ ] `GLOSSARY.md` has a "Metadata" entry of at most three sentences.
 - [ ] The entry says metadata is the descriptive data a server holds about an item (title, year, artwork).
 - [ ] Entries stay in alphabetical order.
 - [ ] `./scripts/check.sh` passes.
 
 ## Scope
-`docs/glossary.md` only. Do not touch `.github/` or any other file.
+`GLOSSARY.md` only. Do not touch `.github/` or any other file.
 ```
 
 ## Labels you will see

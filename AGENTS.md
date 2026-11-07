@@ -78,3 +78,13 @@ Budgets are targets to measure against, not guesses to ignore. Record measuremen
   errors via `thiserror`, async via `tokio` only at the edges.
 - Swift: SwiftUI, Swift Concurrency, no force-unwraps in non-test code, UI state is derived from `core` state.
 - Public items get doc comments that explain why, not what.
+
+## Agent skills
+
+### Issue tracker
+
+Issues and specs live in this repo's GitHub Issues (`gh` CLI). See `docs/agents/issue-tracker.md`.
+
+### Domain docs
+
+Single-context: root `GLOSSARY.md` plus `docs/adr/`. See `docs/agents/domain.md`.
